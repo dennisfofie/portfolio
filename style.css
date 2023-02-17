@@ -1,0 +1,111 @@
+/* global variables */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body and html common styles */
+
+body,
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  max-width: 375px;
+}
+
+/* img styles */
+
+img {
+  width: 100%;
+}
+
+button {
+  font-size: large;
+  padding: 7px;
+  margin: 10px 0;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+/* header styles */
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  gap: 70%;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 5px;
+}
+
+.header-container > h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 12px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.header-container > span {
+  color: #acb7c3;
+  margin-top: 10px;
+  margin-right: 1px;
+}
+
+/* header content */
+
+.hero-section {
+  position: relative;
+  background-color: white;
+  border-radius: 0 0 50px 50px;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 {
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+}
+
+.hero-section p {
+  position: absolute;
+  left: 40px;
+  top: 300px;
+  font-size: 16px;
+  width: 327px;
+  height: 146px;
+  color: #344563;
+}
+
+.hero-section a {
+  position: absolute;
+  left: 40px;
+  bottom: 110px;
+  width: 117px;
+  height: 24px;
+  font-weight: 500px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170.17px;
+  gap: 20px;
+}
+
+.hero-section .social-icons {
+  position: absolute;
+  left: 40px;
+  bottom: 70px;
+}
